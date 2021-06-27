@@ -216,7 +216,7 @@ while 1:
         sbonus=2
         news.clear()
         news.hideturtle()
-        if x==1:
+        if x==1 and level<3:
             news.write("Extra Health", False, align="left", font=("Arial Black", 20, "normal", "bold"))
         else:
             news.write("Extra Points", False, align="left", font=("Arial Black", 20, "normal", "bold"))
